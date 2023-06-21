@@ -1,19 +1,18 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+// import React from "react";
+import ReactDOM from "react-dom/client";
+// import App from "./App";
+import MyNav from "./pages/MyNav";
+import Home from "./pages/Home";
+const testEl = ReactDOM.createRoot(
+  document.getElementById("here") as HTMLDivElement
+)
+// testEl.render(
+//   <MyNav/>
+// )
 
-const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLElement
-);
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+const homeEl = ReactDOM.createRoot(
+  document.getElementById("home-block") as HTMLDivElement
+)
+// homeEl.render(
+  // <Home/>
+// )

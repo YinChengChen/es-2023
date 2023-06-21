@@ -1,0 +1,14 @@
+﻿/* Place Your Custom Styles Here */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
+.tc-text{
+    font-family: 'Noto Sans TC', sans-serif;
+}
+.tc-text-red{
+    color: red;
+}
+.tc-text-typo{
+    font-size: large;
+}
+/* .site-footer .socials-container{
+    background: #ffffff50;
+} */
