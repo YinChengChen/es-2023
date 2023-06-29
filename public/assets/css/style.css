@@ -1191,7 +1191,7 @@ select.form-control-lg:not([size]):not([multiple]),
   right: 25px;
   width: 50px;
   height: 50px;
-  background-color: #fff;
+  background-color: #ffc107;
   background-clip: padding-box;
   border: 1px solid rgba(3, 5, 7, 0.12);
   text-align: center;

@@ -45,6 +45,17 @@
       href="%PUBLIC_URL%/assets/css/themify-icons.css"
       type="text/css"
     />
+	<link
+      rel="stylesheet"
+      href="%PUBLIC_URL%/assets/css/uicon/css/uicons-regular-rounded.css"
+      type="text/css"
+    />
+
+	<link
+      rel="stylesheet"
+      href="%PUBLIC_URL%/assets/css/uicon/css/uicons-regular-straight.css"
+      type="text/css"
+    />
 
     <link
       href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,700%7COpen+Sans:400,700&display=swap"
@@ -69,7 +80,7 @@
       >
         <div class="header-base style-dark w-100">
           <div class="header-brand">
-            <h2 class="tc-text fw-500">全國地球科學專題競賽</h2>
+            <h4 class="tc-text fw-500">全國地球科學專題競賽</h4>
             <!-- Nav toggle -->
             <button type="button" id="navigation-toggle" class="nav-toggle">
               <span></span>
@@ -95,11 +106,11 @@
                     >大專組別</a
                   >
                 </li>
-				<li>					
-					<a href="#apply-rules" class="h5 tc-text fw-400 pr-2"
+				<!-- <li>					
+					<a href="#senior" class="h5 tc-text fw-400 pr-2"
 					  >高中組別</a
 					>
-				  </li>
+				</li> -->
                 <li>
                   <a href="#agenda" class="h5 tc-text fw-400 pr-2">比賽議程</a>
                 </li>
@@ -121,8 +132,8 @@
       </header>
 
       <!-- Back to top button -->
-      <a href="#top" id="back-to-top" class="style-dark">
-        <i class="fas fa-angle-up"></i>
+      <a href="#top" id="back-to-top" class="style-warning">
+        <i class="fi fi-rr-caret-up" style="font-size: 20px"></i>
       </a>
 
       <!-- Close .side-block button -->
@@ -316,6 +327,89 @@
           </div>
         </section>
 
+		<!-- <section id="senior" class="border-top border-warning">
+			<div class="container">
+			  <h2 class="tc-text mb-2 fw-500">高中組別</h2>
+			  <div class="divider divider-alt bg-warning my-5"></div>
+			  <h5 class="tc-text">表單下載</h5>
+			  <hr/>
+			  <div class="container px-0">
+				  <ul class="row">
+					  <li class="col-12 col-md-4">
+						  <a href="https://ncku365-my.sharepoint.com/:b:/g/personal/10802051_ncku_edu_tw/EV5ZsOw27JtAtBEmVdyloM4Bkcwr33XbtP-dnH5HRhIKvQ?e=qVKaVL" class="btn btn-outline-warning btn-lg btn-block button-border btn-norounded" target="_blank">
+							  <div class="feature-icon py-2">
+								  <div>
+									<i class="ti-agenda" style="font-size:45px"></i>
+								  </div>
+								</div>
+								<span class="h4 tc-text">活動簡章</span>
+						  </a>
+					  </li>
+					  <li class="col-12 col-md-4">
+						  <a href="https://ncku365-my.sharepoint.com/:b:/g/personal/10802051_ncku_edu_tw/EVYWWqSC51ZJi0TU8lbNl6IBmAv-DgKPpiadR6TcHpIaPA?e=QMNoXU" class="btn btn-outline-warning btn-lg btn-block button-border btn-norounded" target="_blank">
+							  <div class="feature-icon py-2">
+								  <div>
+									<i class="ti-write" style="font-size:45px"></i>
+								  </div>
+								</div>
+								<span class="h4 tc-text">小論文格式</span>
+						  </a>
+					  </li>
+					  <li class="col-12 col-md-4">
+						  <a href="https://ncku365-my.sharepoint.com/:b:/g/personal/10802051_ncku_edu_tw/EfFXM6qj5xFBj-jS7f9ALQAB7MpWiWJVrOArUfGCO7iBzQ?e=fagjI2" class="btn btn-outline-warning btn-lg btn-block button-border btn-norounded" target="_blank">
+							  <div class="feature-icon py-2">
+								  <div>
+									<i class="ti-stamp" style="font-size:45px"></i>
+								  </div>
+								</div>
+								<span class="h4 tc-text">參賽切結書</span>
+						  </a>
+					  </li>
+				  </ul>
+			  </div>
+			  
+			  <h5 class="mt-5 tc-text">線上專區</h5>
+			  <hr/>
+			  <div class="container px-0">
+				  <ul class="row">
+					  <li class="col-12 col-md-4">
+						  <a href="https://docs.google.com/forms/d/e/1FAIpQLSdJ51n0kAxuLYZWLMokhil0cdhnToODYARvIg-bIIDr7uFjBw/viewform?usp=sf_link" 
+						  class="btn btn-outline-warning btn-lg btn-block button-border btn-norounded" 
+						  target="_blank">
+							  <div class="feature-icon py-2">
+								  <div>
+									<i class="ti-pencil" style="font-size:45px"></i>
+								  </div>
+								</div>
+								<span class="h4 tc-text">線上報名</span>
+						  </a>
+					  </li>
+					  <li class="col-12 col-md-4">
+						  <a href="https://driveuploader.com/upload/Uh8oR91iHh/" 
+						  class="btn btn-outline-warning btn-lg btn-block button-border btn-norounded" 
+						  target="_blank">
+							  <div class="feature-icon py-2">
+								  <div>
+									<i class="ti-save" style="font-size:45px"></i>
+								  </div>
+								</div>
+								<span class="h4 tc-text">論文上傳</span>
+						  </a>
+					  </li>
+					  <li class="d-none">
+						  <a href="#">
+							  <div class="feature-icon py-2">
+								  <div>
+									<i class="ti-stamp" style="font-size:45px"></i>
+								  </div>
+								</div>
+								<span class="h4 tc-text">參賽切結書</span>
+						  </a>
+					  </li>
+				  </ul>
+			  </div>
+			</div>
+		  </section> -->
         <section id="agenda" class="border-top border-warning">
           <div class="container">
             <h2 class="tc-text mb-4 fw-500">比賽議程</h2>
@@ -469,12 +563,12 @@
 					<div class="feature-block feature-boxed feature-bordered">
 						<div class="feature-icon text-primary mb-4">
 							<div>
-								<i class="text-warning fa fa-map-marker-alt"></i>
+								<i class="text-warning fi fi-rs-marker"></i>
 							</div>
 						</div>
 						<h3 class="h4 mb-2 tc-text">校區地圖</h3>
 						<a href="https://nckumap.ncku.edu.tw/map.php" class="btn btn-warning btn-sm mb-2" target="_blank">建築分布</a>
-						<p class="h5 tc-text mb-2">搜尋 "圖書館" 選取 "B005 圖書館(B013)"</p>
+						<p class="h5 tc-text mb-2">搜尋「圖書館」選取「B005 圖書館」</p>
 						<iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.6399587586757!2d120.2181063060931!3d23.000263498812604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e76929d696c03%3A0x5b036fe9505b5462!2z5ZyL56uL5oiQ5Yqf5aSn5a245ZyW5pu46aSo!5e0!3m2!1szh-TW!2stw!4v1687333208850!5m2!1szh-TW!2stw"
                     width="inherit"
@@ -490,28 +584,28 @@
 					<div class="feature-block feature-boxed feature-bordered">
 						<div class="feature-icon text-primary mb-4">
 							<div>
-								<i class="text-warning fa fa-car-alt"></i>
+								<i class="text-warning fi fi-rr-car"></i>
 							</div>
 						</div>
 						<h3 class="h4 mb-2 tc-text">自行開車</h3>
 						<a href="https://goo.gl/maps/bcLJzpSQJMt5jg779" 
 						class="btn btn-warning btn-sm mb-2"
 						target="_blank">南下</a>
-						<p class="h5 tc-text mb-2">國道1號南下大灣交流道<i class="ti-arrow-right"></i>成功大學校本部</p>
+						<p class="h5 tc-text mb-2">國道1號南下大灣交流道<i class="ti-arrow-right"></i>成功大學成功校區</p>
 						<a href="https://goo.gl/maps/zgPgFx87ahS1oiFH8" 
 						class="btn btn-warning btn-sm mb-2" target="_blank">北上</a>
-						<p class="h5 tc-text">國道1號北上仁德交流道<i class="ti-arrow-right"></i>成功大學校本部</p>
+						<p class="h5 tc-text">國道1號北上仁德交流道<i class="ti-arrow-right"></i>成功大學成功校區</p>
 					</div>
 				</div>
 				<div class="col-md-6 col-sm-6 mb-4">
 					<div class="feature-block feature-boxed feature-bordered">
 						<div class="feature-icon text-primary mb-4">
 							<div>
-								<i class="text-warning fa fa-tram"></i>
+								<i class="text-warning fi fi-rr-subway"></i>
 							</div>
 						</div>
 						<h3 class="h4 mb-2 tc-text">搭乘火車</h3>
-						<p class="h5 tc-text">台鐵台南站<i class="ti-arrow-right"></i>後站出口<i class="ti-arrow-right"></i>大學路<i class="ti-arrow-right"></i>成功大學校本部</p>
+						<p class="h5 tc-text">台鐵台南站<i class="ti-arrow-right"></i>後站出口<i class="ti-arrow-right"></i>大學路<i class="ti-arrow-right"></i>成功大學成功校區</p>
 					</div>
 				</div>
 
@@ -519,11 +613,11 @@
 					<div class="feature-block feature-boxed feature-bordered">
 						<div class="feature-icon text-primary mb-4">
 							<div>
-								<i class="text-warning fa fa-train"></i>
+								<i class="text-warning fi fi-rr-train"></i>
 							</div>
 						</div>
 						<h3 class="h4 mb-2 tc-text">搭乘高鐵</h3>
-						<p class="h5 tc-text">高鐵台南站<i class="ti-arrow-right"></i>二樓轉乘通廊 / 一樓大廳1號出口<i class="ti-arrow-right"></i>台鐵沙崙站<i class="ti-arrow-right"></i>台鐵台南站<i class="ti-arrow-right"></i>後站出口<i class="ti-arrow-right"></i>大學路<i class="ti-arrow-right"></i>成功大學校本部</p>
+						<p class="h5 tc-text">高鐵台南站<i class="ti-arrow-right"></i>二樓轉乘通廊 / 一樓大廳1號出口<i class="ti-arrow-right"></i>台鐵沙崙站<i class="ti-arrow-right"></i>台鐵台南站<i class="ti-arrow-right"></i>後站出口<i class="ti-arrow-right"></i>大學路<i class="ti-arrow-right"></i>成功大學成功校區</p>
 						
 					</div>
 				</div>
@@ -581,7 +675,7 @@
                 <div class="feature-block feature-boxed feature-bordered h-100">
                   <div class="feature-icon text-primary mb-4">
                     <div>
-                      <i class="text-warning ti-time"></i>
+                      <i class="text-warning fi fi-rr-clock-five"></i>
                     </div>
                   </div>
                   <h3 class="h4 tc-text mb-2">聯繫時間</h3>
@@ -593,7 +687,7 @@
                 <div class="feature-block feature-boxed feature-bordered">
                   <div class="feature-icon text-primary mb-4">
                     <div>
-                      <i class="text-warning ti-location-pin"></i>
+                      <i class="text-warning fi fi-rs-marker"></i>
                     </div>
                   </div>
                   <h3 class="h4 tc-text mb-2">地址</h3>
@@ -605,7 +699,7 @@
                 <div class="feature-block feature-boxed feature-bordered">
                   <div class="feature-icon text-primary mb-4">
                     <div>
-                      <i class="text-warning ti-mobile"></i>
+                      <i class="text-warning fi fi-rr-mobile-notch"></i>
                     </div>
                   </div>
                   <h3 class="h4 tc-text mb-2">電話</h3>
@@ -620,7 +714,7 @@
                 <div class="feature-block feature-boxed feature-bordered">
                   <div class="feature-icon text-primary mb-4">
                     <div>
-                      <i class="text-warning ti-email"></i>
+                      <i class="text-warning fi fi-rs-envelope"></i>
                     </div>
                   </div>
                   <h3 class="h4 tc-text mb-2">信箱</h3>
