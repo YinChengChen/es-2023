@@ -37,11 +37,6 @@
     />
     <link
       rel="stylesheet"
-      href="%PUBLIC_URL%/assets/css/fontawesome/all.min.css"
-      type="text/css"
-    />
-    <link
-      rel="stylesheet"
       href="%PUBLIC_URL%/assets/css/themify-icons.css"
       type="text/css"
     />
@@ -138,25 +133,25 @@
 
       <!-- Close .side-block button -->
       <a href="#" id="close-side-block" class="style-dark">
-        <i class="fas fa-times"></i>
+        <i class="fi fi-rr-cross-small"></i>
       </a>
 
       <!-- Global mask -->
       <div class="global-mask hide-global-mask">
-        <div class="overlay-inner bg-dark opacity-90"></div>
+        <div class="overlay-inner bg-dark opacity-30"></div>
       </div>
 
       <!-- Home block -->
       <div id="home-block">
         <section id="home" class="d-md-flex fullscreen-md">
-          <div class="overlay">
+          <div class="overlay">			
+			
             <div class="overlay-inner bg-image-holder bg-cover bg-bottom-left">
-              <img src="demo/images/image-3.jpg" alt="background" />
+              <img src="demo/images/bg-01.png" class="img-fluid" alt="background" />
+			  
             </div>
-            <div
-              class="overlay-inner opacity-85"
-              data-gradient-bg="[['#3c55e6','#007bff'],['#02AAB0','#00CDAC'],['#DA22FF','#007bff']]"
-            ></div>
+			<div class="overlay-inner opacity-85" id="constellation-background"></div>
+			
           </div>
           <div
             class="container d-md-flex h-100 align-self-center justify-content-center"
@@ -289,7 +284,7 @@
 			<div class="container px-0">
 				<ul class="row">
 					<li class="col-12 col-md-4">
-						<a href="https://docs.google.com/forms/d/e/1FAIpQLSdJ51n0kAxuLYZWLMokhil0cdhnToODYARvIg-bIIDr7uFjBw/viewform?usp=sf_link" 
+						<a href="https://forms.gle/dfhjnX48F7vDexaQ8" 
 						class="btn btn-outline-warning btn-lg btn-block button-border btn-norounded" 
 						target="_blank">
 							<div class="feature-icon py-2">
@@ -730,8 +725,8 @@
 
       <!-- Site footer -->
       <footer class="site-footer">
-		<div class="container copyright-container">
-			<ul class="d-none d-md-flex justify-content-around align-items-center h-100">
+		<!-- <div class="container copyright-container"> -->
+			<!-- <ul class="d-none d-md-flex justify-content-around align-items-center h-100">
 				<li>
 					<img class="img-fluid img-thumbnail background-opacity" src="demo/images/0125-國科會標誌組合.png" alt="">
 				</li>
@@ -744,8 +739,8 @@
 				<li>
 					<img class="img-fluid img-thumbnail background-opacity" src="demo/images/下載-removebg-preview.png" alt="">
 				</li>
-			</ul>
-		</div>
+			</ul> -->
+		<!-- </div> -->
 	  </footer>
     </div>
 
@@ -765,6 +760,8 @@
     <script src="%PUBLIC_URL%/assets/js/granim.min.js"></script>
     <script src="%PUBLIC_URL%/assets/js/slick.min.js"></script>
     <script src="%PUBLIC_URL%/assets/js/vegas.min.js"></script>
+	<script src="%PUBLIC_URL%/assets/js/particles.min.js"></script>
+	<script src="%PUBLIC_URL%/assets/js/particles-constellation.js"></script>
     <script src="%PUBLIC_URL%/assets/js/main.js"></script>
   </body>
 </html>

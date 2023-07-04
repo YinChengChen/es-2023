@@ -687,7 +687,8 @@ blockquote:last-child {
 }
 
 .header-base.style-dark {
-  background: #030507;
+  /* background: #33559D; */
+  background: linear-gradient(to right, #002B84,#33559D, #458EB9);
   color: #fff;
 }
 
