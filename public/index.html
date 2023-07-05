@@ -91,32 +91,32 @@
             <nav>
               <ul>
                 <li>
-                  <a href="#home" class="h5 tc-text fw-400 pr-2">首頁</a>
+                  <a href="#home" class="h5 tc-text fw-400 	 hvr-underline-from-center">首頁</a>
                 </li>
 				<li>
-					<a href="#issue" class="h5 tc-text fw-400 pr-2">競賽資訊</a>
+					<a href="#issue" class="h5 tc-text fw-400 hvr-underline-from-center">競賽資訊</a>
 				</li>
                 <li>					
-                  <a href="#university" class="h5 tc-text fw-400 pr-2"
+                  <a href="#university" class="h5 tc-text fw-400 hvr-underline-from-center"
                     >大專組別</a
                   >
                 </li>
-				<!-- <li>					
-					<a href="#senior" class="h5 tc-text fw-400 pr-2"
+				<li>					
+					<a href="#senior" class="h5 tc-text fw-400 hvr-underline-from-center"
 					  >高中組別</a
 					>
-				</li> -->
+				</li>
                 <li>
-                  <a href="#agenda" class="h5 tc-text fw-400 pr-2">比賽議程</a>
+                  <a href="#agenda" class="h5 tc-text fw-400 hvr-underline-from-center">比賽議程</a>
                 </li>
                 <li>
-                  <a href="#place" class="h5 tc-text fw-400 pr-2">交通資訊</a>
+                  <a href="#place" class="h5 tc-text fw-400 hvr-underline-from-center">交通資訊</a>
                 </li>
 				<li>
-					<a href="#office" class="h5 tc-text fw-400 pr-2">主辦單位</a>
+					<a href="#office" class="h5 tc-text fw-400 hvr-underline-from-center">主辦單位</a>
 				  </li>
                 <li>
-                  <a href="#contact-us" class="h5 tc-text fw-400 pr-2"
+                  <a href="#contact-us" class="h5 tc-text fw-400 hvr-underline-from-center"
                     >聯絡資訊</a
                   >
                 </li>
@@ -127,18 +127,20 @@
       </header>
 
       <!-- Back to top button -->
-      <a href="#top" id="back-to-top" class="style-warning">
+      <a href="#top" id="back-to-top">
         <i class="fi fi-rr-caret-up" style="font-size: 20px"></i>
       </a>
 
       <!-- Close .side-block button -->
-      <a href="#" id="close-side-block" class="style-dark">
+      <a href="#" id="close-side-block" class="d-none style-dark">
         <i class="fi fi-rr-cross-small"></i>
       </a>
 
       <!-- Global mask -->
       <div class="global-mask hide-global-mask">
-        <div class="overlay-inner bg-dark opacity-30"></div>
+        <div class="overlay-inner">
+			<img src="demo/images/bg-01-01.png" class="img-fluid" alt="earth"/>
+		</div>
       </div>
 
       <!-- Home block -->
@@ -147,7 +149,7 @@
           <div class="overlay">			
 			
             <div class="overlay-inner bg-image-holder bg-cover bg-bottom-left">
-              <img src="demo/images/bg-01.png" class="img-fluid" alt="background" />
+              <img src="demo/images/bg-02-01.png" class="img-fluid" alt="background" />
 			  
             </div>
 			<div class="overlay-inner opacity-85" id="constellation-background"></div>
@@ -165,7 +167,7 @@
             </div>
 
 			<div
-              class="text-right d-md-none div-line-sm pr-4 pb-4"
+              class="text-center d-md-none"
             >
               <h1 class="text-white mb-2 fw-700 tc-text">2023</h1>
               <h1 class="text-white mb-2 fw-700 tc-text">全國地球科學</h1>
@@ -185,17 +187,24 @@
               ></div>
 
             </div>
-			<div class="d-md-none text-left div-line-side pl-4 pt-4">
+			<div class="d-md-none text-center mt-5">
 				<h3 class="tc-text fw-500 text-white">報名截止</h3>
-				<div
-				  class="countdown text-white mb-2"
-				  data-countdown="2023/8/10 23:59:59"
-				></div>
+				<div class="d-flex justify-content-center text-white mb-2">
+					<div
+					class="countdown"
+					data-countdown="2023/8/10 23:59:59"
+				  ></div>
+				</div>
+				
 				<h3 class="tc-text fw-500 text-white">競賽倒數</h3>
-				<div
-				  class="countdown text-white"
-				  data-countdown="2023/9/8 9:00:00"
-				></div>
+				<div class="d-flex justify-content-center text-white mb-2">
+					<div
+					class="countdown text-white"
+					data-countdown="2023/9/8 9:00:00"
+				  ></div>
+				</div>
+
+				
 			  </div>
           </div>
         </section>
@@ -203,108 +212,122 @@
 
       <!-- Side block -->
 	  
-      <div id="side-block" class="hide-side-block text-light bg-dark">
-		<section id="issue">
+      <div id="side-block" class="hide-side-block text-light bg-primary">
+		<!-- Global mask -->
+			
+		<div class="global-mask hide-global-mask" style="height: 100px">		
+			<div class="nav-need"></div>
+		  </div>
+		<section id="issue" class="border-top border-light">
 			<div class="container">
-			  <h2 class="tc-text fw-500">競賽資訊</h2>
-			  <div class="divider divider-alt bg-warning my-5"></div>
-			  <h5 class="mt-5 tc-text">活動宗旨</h5>
-			  <hr/>
-			  <p class="h5 tc-text">
-				鼓勵大專、高中生透過科學探究深化對科學問題理解並經由發現問題、規劃研究、論證與表達分享過程深化解決問題的能力，並讓對科學探索有興趣的同學有跨校、跨領域交流的舞台，並且有更多多元學習的機會。
-			  </p>
-			  <h5 class="mt-5 tc-text">參加對象</h5>
-			<hr/>
-			<div class="container px-0">
-				<div class="row h-100">
-					<div class="col-12 col-lg-6 mb-5 mb-lg-0 text-dark">
-						<div class="block block-boxed bg-warning">
-							<h4 class="tc-text">大專組</h4>
-						<div class="divider divider-alt bg-dark my-4"></div>
-						<p class="h5 tc-text">全國大學部在學學生(報名截止日前具學生身分)及當屆(含應屆畢業生)，凡參與地球、海洋、行星科學與空間資訊相關專題研究者，皆可以「團隊」或「個人」方式報名參加。<strong>團體組最多五名</strong>。</p>
+				<h4 class="h2 tc-text fw-500">競賽資訊</h4>
+				<div class="divider divider-alt bg-light my-5"></div>
+				<h6 class="mt-5 tc-text">活動宗旨</h6>
+				<hr class="light"/>
+				<div class="row mt-4">
+					<div class="col-12 mb-5 mb-lg-0">
+						<div class="feature-block">
+							<p class="tc-text">鼓勵大專、高中生透過科學探究深化對科學問題理解並經由發現問題、規劃研究、論證與表達分享過程深化解決問題的能力，並讓對科學探索有興趣的同學有跨校、跨領域交流的舞台，並且有更多多元學習的機會。</p>
 						</div>
-						
 					</div>
-					<div class="col-12 col-lg-6 mb-5 mb-lg-0 text-dark">
-						<div class="block block-boxed bg-warning">
-							<h4 class="tc-text">高中組</h4>
-							<div class="divider divider-alt bg-dark my-4"></div>
-							<p class="h5 tc-text"><strong>受邀參加試辦的各縣市高中學生</strong
+				</div>
+
+				<h6 class="mt-5 tc-text">參加對象</h6>
+				<hr class="light"/>
+				<div class="row mt-4">
+					<div class="col-12 col-lg-6 mb-5 mb-lg-0">
+						<div class="feature-block">
+							
+							<h6 class="tc-text">大專組</h6>
+							<hr class="light">
+							<p class="tc-text">全國大學部在學學生(報名截止日前具學生身分)及當屆(含應屆畢業生)，凡參與地球、海洋、行星科學與空間資訊相關專題研究者，皆可以「團隊」或「個人」方式報名參加。<strong>團體組最多五名</strong>。</p>
+						</div>
+					</div>
+					<div class="col-12 col-lg-6">
+						<div class="feature-block">
+							
+							<h6 class="tc-text">高中組</h6>
+							<hr class="light">
+							<p class="tc-text"><strong>受邀參加試辦的各縣市高中學生</strong
 								>，須提出地球、海洋、行星科學與空間資訊相關專題，並可以「團隊」或「個人」方式報名參加，團體組最多五名。</p>
 						</div>
-						
 					</div>
 				</div>
 			</div>
-			</div>
 		  </section>
-        <section id="university" class="border-top border-warning">
+        <section id="university" class="border-top border-light" style="z-index: 1">
           <div class="container">
 			<h2 class="tc-text mb-2 fw-500">大專組別</h2>
-			<div class="divider divider-alt bg-warning my-5"></div>
-            <h5 class="tc-text">表單下載</h5>
-			<hr/>
-            <div class="container px-0">
+			<div class="divider divider-alt bg-light my-5"></div>
+            <h6 class="tc-text">表單下載</h6>
+			<hr class="light"/>
+            <div class="container px-0 mt-4">
 				<ul class="row">
-					<li class="col-12 col-md-4">
-						<a href="https://ncku365-my.sharepoint.com/:b:/g/personal/10802051_ncku_edu_tw/EV5ZsOw27JtAtBEmVdyloM4Bkcwr33XbtP-dnH5HRhIKvQ?e=qVKaVL" class="btn btn-outline-warning btn-lg btn-block button-border btn-norounded" target="_blank">
+					<li class="col-12 mb-2 mb-md-0 col-md-4">
+						<a href="https://ncku365-my.sharepoint.com/:b:/g/personal/10802051_ncku_edu_tw/EV5ZsOw27JtAtBEmVdyloM4Bkcwr33XbtP-dnH5HRhIKvQ?e=qVKaVL" 
+						class="btn btn-outline-primary btn-lg btn-block button-border" 
+						target="_blank">
 							<div class="feature-icon py-2">
 								<div>
 								  <i class="ti-agenda" style="font-size:45px"></i>
 								</div>
 							  </div>
-							  <span class="h4 tc-text">活動簡章</span>
+							  <span class="h5 tc-text">活動簡章</span>
 						</a>
 					</li>
-					<li class="col-12 col-md-4">
-						<a href="https://ncku365-my.sharepoint.com/:b:/g/personal/10802051_ncku_edu_tw/EVYWWqSC51ZJi0TU8lbNl6IBmAv-DgKPpiadR6TcHpIaPA?e=QMNoXU" class="btn btn-outline-warning btn-lg btn-block button-border btn-norounded" target="_blank">
+					<li class="col-12 mb-2 mb-md-0 col-md-4">
+						<a href="https://ncku365-my.sharepoint.com/:b:/g/personal/10802051_ncku_edu_tw/EVYWWqSC51ZJi0TU8lbNl6IBmAv-DgKPpiadR6TcHpIaPA?e=QMNoXU" 
+						class="btn btn-outline-primary btn-lg btn-block button-border" 
+						target="_blank">
 							<div class="feature-icon py-2">
 								<div>
 								  <i class="ti-write" style="font-size:45px"></i>
 								</div>
 							  </div>
-							  <span class="h4 tc-text">小論文格式</span>
+							  <span class="h5 tc-text">小論文格式</span>
 						</a>
 					</li>
-					<li class="col-12 col-md-4">
-						<a href="https://ncku365-my.sharepoint.com/:b:/g/personal/10802051_ncku_edu_tw/EfFXM6qj5xFBj-jS7f9ALQAB7MpWiWJVrOArUfGCO7iBzQ?e=fagjI2" class="btn btn-outline-warning btn-lg btn-block button-border btn-norounded" target="_blank">
+					<li class="col-12 mb-2 mb-md-0 col-md-4">
+						<a href="https://ncku365-my.sharepoint.com/:b:/g/personal/10802051_ncku_edu_tw/EfFXM6qj5xFBj-jS7f9ALQAB7MpWiWJVrOArUfGCO7iBzQ?e=fagjI2" 
+						class="btn btn-outline-primary btn-lg btn-block button-border" 
+						target="_blank">
 							<div class="feature-icon py-2">
 								<div>
 								  <i class="ti-stamp" style="font-size:45px"></i>
 								</div>
 							  </div>
-							  <span class="h4 tc-text">參賽切結書</span>
+							  <span class="h5 tc-text">參賽切結書</span>
 						</a>
 					</li>
 				</ul>
 			</div>
             
-			<h5 class="mt-5 tc-text">線上專區</h5>
-			<hr/>
-			<div class="container px-0">
+			<h6 class="mt-5 tc-text">線上專區</h6>
+			<hr class="light"/>
+			<div class="container px-0 mt-4">
 				<ul class="row">
-					<li class="col-12 col-md-4">
+					<li class="col-12 mb-2 mb-md-0 col-md-4">
 						<a href="https://forms.gle/dfhjnX48F7vDexaQ8" 
-						class="btn btn-outline-warning btn-lg btn-block button-border btn-norounded" 
+						class="btn btn-outline-primary btn-lg btn-block button-border" 
 						target="_blank">
 							<div class="feature-icon py-2">
 								<div>
 								  <i class="ti-pencil" style="font-size:45px"></i>
 								</div>
 							  </div>
-							  <span class="h4 tc-text">線上報名</span>
+							  <span class="h5 tc-text">線上報名</span>
 						</a>
 					</li>
-					<li class="col-12 col-md-4">
-						<a href="https://driveuploader.com/upload/Uh8oR91iHh/" 
-						class="btn btn-outline-warning btn-lg btn-block button-border btn-norounded" 
+					<li class="col-12 mb-2 mb-md-0 col-md-4">
+						<a href="https://forms.gle/msFYAPmfJeSAtYun7" 
+						class="btn btn-outline-primary btn-lg btn-block button-border" 
 						target="_blank">
 							<div class="feature-icon py-2">
 								<div>
 								  <i class="ti-save" style="font-size:45px"></i>
 								</div>
 							  </div>
-							  <span class="h4 tc-text">論文上傳</span>
+							  <span class="h5 tc-text">論文上傳</span>
 						</a>
 					</li>
 					<li class="d-none">
@@ -319,76 +342,114 @@
 					</li>
 				</ul>
 			</div>
+			<h6 class="mt-5 tc-text">重要時程</h6>
+			<hr class="light"/>
+			<div class="container px-0">
+				<div class="row h-100 mt-4">
+					<div class="col-12 col-lg-4 mb-5 mb-lg-0 text-light">
+						<div class="block block-boxed border border-light">
+							<h4>07/07</h4>
+							<div class="divider divider-alt bg-light my-4"></div>
+							<p class="tc-text">官網上線</p>
+							<p class="tc-text">開放線上報名</p>
+						</div>
+						
+					</div>
+					<div class="col-12 col-lg-4 mb-5 mb-lg-0 text-light">
+						<div class="block block-boxed border border-light">
+							<h4>08/10</h4>
+							<div class="divider divider-alt bg-light my-4"></div>
+							<p class="tc-text">線上報名結束</p>
+							<p class="tc-text">小論文收件截止</p>
+						</div>
+					</div>	
+					<div class="col-12 col-lg-4 mb-5 mb-lg-0 text-light">
+						<div class="block block-boxed border border-light">
+							<h4>09/08</h4>
+							<div class="divider divider-alt bg-light my-4"></div>
+							<p class="tc-text">競賽開始</p>
+							<p class="tc-text">海報張貼</p>
+							<p class="tc-text">簡報檔現場繳交</p>
+						</div>			
+					</div>					
+				</div>
+			</div>
           </div>
         </section>
 
-		<!-- <section id="senior" class="border-top border-warning">
+		<section id="senior" class="border-top border-light" style="z-index: 1">
 			<div class="container">
 			  <h2 class="tc-text mb-2 fw-500">高中組別</h2>
-			  <div class="divider divider-alt bg-warning my-5"></div>
-			  <h5 class="tc-text">表單下載</h5>
-			  <hr/>
-			  <div class="container px-0">
+			  <div class="divider divider-alt bg-light my-5"></div>
+			  <h6 class="tc-text">表單下載</h6>
+			  <hr class="light"/>
+			  <div class="container px-0 mt-4">
 				  <ul class="row">
-					  <li class="col-12 col-md-4">
-						  <a href="https://ncku365-my.sharepoint.com/:b:/g/personal/10802051_ncku_edu_tw/EV5ZsOw27JtAtBEmVdyloM4Bkcwr33XbtP-dnH5HRhIKvQ?e=qVKaVL" class="btn btn-outline-warning btn-lg btn-block button-border btn-norounded" target="_blank">
+					  <li class="col-12 mb-2 mb-md-0 col-md-4">
+						  <a href="https://ncku365-my.sharepoint.com/:b:/g/personal/10802051_ncku_edu_tw/EeHrSG9HnixPhx5SR3Os1DoBZQ6blCYpY4LH0Uc8TLQYYg?e=uPP7eT" 
+						  class="btn btn-outline-primary btn-lg btn-block button-border" 
+						  target="_blank">
 							  <div class="feature-icon py-2">
 								  <div>
 									<i class="ti-agenda" style="font-size:45px"></i>
 								  </div>
 								</div>
-								<span class="h4 tc-text">活動簡章</span>
+								<span class="h5 tc-text">活動簡章</span>
 						  </a>
 					  </li>
-					  <li class="col-12 col-md-4">
-						  <a href="https://ncku365-my.sharepoint.com/:b:/g/personal/10802051_ncku_edu_tw/EVYWWqSC51ZJi0TU8lbNl6IBmAv-DgKPpiadR6TcHpIaPA?e=QMNoXU" class="btn btn-outline-warning btn-lg btn-block button-border btn-norounded" target="_blank">
+					  <li class="col-12 mb-2 mb-md-0 col-md-4">
+						  <a href="https://ncku365-my.sharepoint.com/:b:/g/personal/10802051_ncku_edu_tw/ESdd1QPzJplAqHDldzt3ZtoB21UpO9OgTQH6ZmvyMeNOWw?e=SPrQan" 
+						  class="btn btn-outline-primary btn-lg btn-block button-border" 
+						  target="_blank">
 							  <div class="feature-icon py-2">
 								  <div>
 									<i class="ti-write" style="font-size:45px"></i>
 								  </div>
 								</div>
-								<span class="h4 tc-text">小論文格式</span>
+								<span class="h5 tc-text">作品說明書</span>
 						  </a>
 					  </li>
-					  <li class="col-12 col-md-4">
-						  <a href="https://ncku365-my.sharepoint.com/:b:/g/personal/10802051_ncku_edu_tw/EfFXM6qj5xFBj-jS7f9ALQAB7MpWiWJVrOArUfGCO7iBzQ?e=fagjI2" class="btn btn-outline-warning btn-lg btn-block button-border btn-norounded" target="_blank">
+					  <li class="col-12 mb-2 mb-md-0 col-md-4">
+						  <a href="https://ncku365-my.sharepoint.com/:b:/g/personal/10802051_ncku_edu_tw/EafbgGb7cRNJo8A96JGzUNoBnZX1sS15AyAF-j6Znd5cNw?e=wenddv" 
+						  class="btn btn-outline-primary btn-lg btn-block button-border" 
+						  target="_blank">
 							  <div class="feature-icon py-2">
 								  <div>
 									<i class="ti-stamp" style="font-size:45px"></i>
 								  </div>
 								</div>
-								<span class="h4 tc-text">參賽切結書</span>
+								<span class="h5 tc-text">參賽切結書</span>
 						  </a>
 					  </li>
 				  </ul>
 			  </div>
 			  
-			  <h5 class="mt-5 tc-text">線上專區</h5>
-			  <hr/>
-			  <div class="container px-0">
+			  <h6 class="mt-5 tc-text">線上專區</h6>
+			  <hr class="light"/>
+			  <div class="container px-0 mt-4">
 				  <ul class="row">
-					  <li class="col-12 col-md-4">
-						  <a href="https://docs.google.com/forms/d/e/1FAIpQLSdJ51n0kAxuLYZWLMokhil0cdhnToODYARvIg-bIIDr7uFjBw/viewform?usp=sf_link" 
-						  class="btn btn-outline-warning btn-lg btn-block button-border btn-norounded" 
+					  <li class="col-12 mb-2 mb-md-0 col-md-4">
+						  <a href="https://forms.gle/dfhjnX48F7vDexaQ8" 
+						  class="btn btn-outline-primary btn-lg btn-block button-border" 
 						  target="_blank">
 							  <div class="feature-icon py-2">
 								  <div>
 									<i class="ti-pencil" style="font-size:45px"></i>
 								  </div>
 								</div>
-								<span class="h4 tc-text">線上報名</span>
+								<span class="h5 tc-text">線上報名</span>
 						  </a>
 					  </li>
-					  <li class="col-12 col-md-4">
-						  <a href="https://driveuploader.com/upload/Uh8oR91iHh/" 
-						  class="btn btn-outline-warning btn-lg btn-block button-border btn-norounded" 
+					  <li class="col-12 mb-2 mb-md-0 col-md-4">
+						  <a href="https://forms.gle/kDF6hbT3zv4xcPrF8" 
+						  class="btn btn-outline-primary btn-lg btn-block button-border" 
 						  target="_blank">
 							  <div class="feature-icon py-2">
 								  <div>
 									<i class="ti-save" style="font-size:45px"></i>
 								  </div>
 								</div>
-								<span class="h4 tc-text">論文上傳</span>
+								<span class="h5 tc-text">作品上傳</span>
 						  </a>
 					  </li>
 					  <li class="d-none">
@@ -403,144 +464,149 @@
 					  </li>
 				  </ul>
 			  </div>
-			</div>
-		  </section> -->
-        <section id="agenda" class="border-top border-warning">
-          <div class="container">
-            <h2 class="tc-text mb-4 fw-500">比賽議程</h2>
-			<div class="divider divider-alt bg-warning my-5"></div>
-			<h5 class="tc-text">重要時程</h5>
-			<hr/>
-			<div class="container px-0">
-				<div class="row h-100">
-					<div class="col-12 col-lg-4 mb-5 mb-lg-0 text-dark">
-						<div class="block block-boxed bg-warning">
-							<h4>07/07</h4>
-							<div class="divider divider-alt bg-dark my-4"></div>
-							<p class="h5 tc-text">官網上線</p>
-							<p class="h5 tc-text">開放線上報名</p>
-						</div>
-						
-					</div>
-					<div class="col-12 col-lg-4 mb-5 mb-lg-0 text-dark">
-						<div class="block block-boxed bg-warning">
-							<h4>08/10</h4>
-							<div class="divider divider-alt bg-dark my-4"></div>
-							<p class="h5 tc-text">線上報名結束</p>
-							<p class="h5 tc-text">小論文收件截止</p>
-						</div>
-					</div>	
-					<div class="col-12 col-lg-4 mb-5 mb-lg-0 text-dark">
-						<div class="block block-boxed bg-warning">
-							<h4>09/08</h4>
-							<div class="divider divider-alt bg-dark my-4"></div>
-							<p class="h5 tc-text">競賽開始</p>
-							<p class="h5 tc-text">海報張貼</p>
-							<p class="h5 tc-text">簡報檔現場繳交</p>
+			  <h6 class="mt-5 tc-text">重要時程</h6>
+			  <hr class="light"/>
+			  <div class="container px-0">
+				  <div class="row h-100 mt-4">
+					  <div class="col-12 col-md-6 mb-5 mb-lg-3 text-light">
+						  <div class="block block-boxed border border-light">
+							  <h4>07/07</h4>
+							  <div class="divider divider-alt bg-light my-4"></div>
+							  <p class="tc-text">官網上線</p>
+							  <p class="tc-text">開放線上報名</p>
+						  </div>
+						  
+					  </div>
+					  <div class="col-12 col-md-6 mb-5 mb-lg-3 text-light">
+						  <div class="block block-boxed border border-light">
+							  <h4>08/10</h4>
+							  <div class="divider divider-alt bg-light my-4"></div>
+							  <p class="tc-text">線上報名結束</p>
+							  <p class="tc-text">作品說明書收件截止</p>
+						  </div>
+					  </div>	
+					  <div class="col-12 col-md-6 mb-5 mb-lg-0 text-light">
+						  <div class="block block-boxed border border-light">
+							  <h4>08/11</h4>
+							  <div class="divider divider-alt bg-light my-4"></div>
+							  <p class="tc-text">公布錄取隊伍</p>
+						  </div>			
+					  </div>
+					  <div class="col-12 col-md-6 mb-5 mb-lg-0 text-light">
+						<div class="block block-boxed border border-light">
+							<h4>08/18</h4>
+							<div class="divider divider-alt bg-light my-4"></div>
+							<p class="tc-text">參賽切結書、匯票收件截止</p>
 						</div>			
 					</div>					
+				  </div>
+			  </div>
+			</div>
+		  </section>
+		
+        <section id="agenda" class="border-top border-light">
+          <div class="container">
+            <h4 class="h2 tc-text mb-2 fw-500">比賽議程</h4>
+			<div class="divider divider-alt bg-light my-5"></div>
+			
+			
+			
+			<h6 class="mt-5 tc-text">競賽日程</h6>		
+			<hr class="light"/>
+			<h5 class="tc-text mb-4">09/08 ( 週五 )</h5>
+			<div class="row text-center mb-4">
+				<div class="col-12">
+					<table class="table">
+						<thead>
+							<tr>
+								<th scope="col" class="tc-text"><p class="lead">時間</p></th>
+								<th scope="col" class="tc-text"><p class="lead">行程</p></th>
+								
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th scope="row"><p class="tc-text">09:00 - 10:20</p></th>
+								<td><p class="tc-text">報到 / 張貼海報</p></td>
+								
+							</tr>
+							<tr>
+								<th scope="row"><p class="tc-text">10:20 - 10:30</p></th>
+								<td><p class="tc-text">開幕式</p></td>
+							</tr>
+							<tr>
+								<th scope="row"><p class="tc-text">10:30 - 12:00</p></th>
+								<td><p class="tc-text">海報評審</p></td>									
+							</tr>
+							<tr>
+								<th scope="row"><p class="tc-text">12:00 - 13:00</p></th>
+								<td><p class="tc-text">午餐</p></td>									
+							</tr>
+							<tr>
+								<th scope="row"><p class="tc-text">13:00 - 13:30</p></th>
+								<td><p class="tc-text">講者演講 地點:圖書館會議廳</p></td>
+							</tr>
+							<tr>
+								<th scope="row"><p class="tc-text">13:30 - 15:30</p></th>
+								<td><p class="tc-text">海報評審</p></td>
+							</tr>
+							<tr>
+								<th scope="row"><p class="tc-text">15:30 - 16:30</p></th>
+								<td><p class="tc-text">下午茶 / 師生交流</p></td>
+							</tr>
+							<tr>
+								<th scope="row"><p class="tc-text">16:00 - 17:00</p></th>
+								<td><p class="tc-text">講者演講 地點:圖書館會議廳</p></td>
+							</tr>
+							<tr>
+								<th scope="row"><p class="tc-text">17:00 -</p></th>
+								<td class="tc-text"><p class="tc-text">公布晉級名單</p></td>
+							</tr>
+						</tbody>
+					</table>
 				</div>
 			</div>
 			
-			<div class="divider divider-alt bg-warning my-5"></div>
-			<h5 class="mt-5 tc-text">競賽日程</h5>		
-			<hr/>
-			<h4 class="tc-text">09/08 ( 週五 )</h6>
-			<hr/>
+			<h5 class="tc-text mb-4">09/09 (週六)</h5>
 			<div class="row">
 				<div class="col-12">
-					<table class="table">
+					<table class="table text-center">
 						<thead>
 							<tr>
-								<th scope="col" class="tc-text"><p class="lead fw-600">時間</p></th>
-								<th scope="col" class="tc-text"><p class="lead fw-600">行程</p></th>
+								<th scope="col" class="tc-text"><p class="lead">時間</p></th>
+								<th scope="col" class="tc-text"><p class="lead">行程</p></th>
 								
 							</tr>
 						</thead>
 						<tbody>
 							<tr>
-								<th scope="row"><p class="lead">09:00 - 10:20</p></th>
-								<td class="tc-text"><p class="lead">報到 / 張貼海報</p></td>
+								<th scope="row"><p class="tc-text">08:30 - 09:00</p></th>
+								<td><p class="tc-text">報到</p></td>
 								
 							</tr>
 							<tr>
-								<th scope="row"><p class="lead">10:20 - 10:30</p></th>
-								<td class="tc-text"><p class="lead">開幕式</p></td>
+								<th scope="row"><p class="tc-text">09:00 - 09:50</p></th>
+								<td><p class="tc-text">高中組口頭報告比賽</p></td>
 							</tr>
 							<tr>
-								<th scope="row"><p class="lead">10:30 - 12:00</p></th>
-								<td class="tc-text"><p class="lead">海報評審</p></td>									
+								<th scope="row"><p class="tc-text">09:50 - 10:00</p></th>
+								<td><p class="tc-text">茶點 / 休息</p></td>
 							</tr>
 							<tr>
-								<th scope="row"><p class="lead">12:00 - 13:00</p></th>
-								<td class="tc-text"><p class="lead">午餐</p></td>									
+								<th scope="row"><p class="tc-text">10:00 - 11:40</p></th>
+								<td><p class="tc-text">大學組口頭報告比賽</p></td>
 							</tr>
 							<tr>
-								<th scope="row"><p class="lead">13:00 - 13:30</p></th>
-								<td class="tc-text"><p class="lead">講者演講 地點:圖書館會議廳</p></td>
+								<th scope="row"><p class="tc-text">11:40 - 11:50</p></th>
+								<td><p class="tc-text">茶點 / 休息</p></td>
 							</tr>
 							<tr>
-								<th scope="row"><p class="lead">13:30 - 15:30</p></th>
-								<td class="tc-text"><p class="lead">海報評審</p></td>
+								<th scope="row"><p class="tc-text">11:50 - 12:20</p></th>
+								<td><p class="tc-text">講者演講 地點:圖書館會議廳</p></td>
 							</tr>
 							<tr>
-								<th scope="row"><p class="lead">15:30 - 16:30</p></th>
-								<td class="tc-text"><p class="lead">下午茶 / 師生交流</p></td>
-							</tr>
-							<tr>
-								<th scope="row"><p class="lead">16:00 - 17:00</p></th>
-								<td class="tc-text"><p class="lead">講者演講 地點:圖書館會議廳</p></td>
-							</tr>
-							<tr>
-								<th scope="row"><p class="lead">17:00</p></th>
-								<td class="tc-text"><p class="lead">公布晉級名單</p></td>
-							</tr>
-						</tbody>
-					</table>
-				</div>
-			</div>
-			<div class="divider divider-alt bg-warning my-5"></div>
-			<h4 class="tc-text">09/09 (週六)</h6>
-			<hr/>
-			<div class="row">
-				<div class="col-12">
-					<table class="table">
-						<thead>
-							<tr>
-								<th scope="col" class="tc-text"><p class="lead fw-600">時間</p></th>
-								<th scope="col" class="tc-text"><p class="lead fw-600">行程</p></th>
-								
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<th scope="row"><p class="lead">08:30 - 09:00</p></th>
-								<td class="tc-text"><p class="lead">報到</p></td>
-								
-							</tr>
-							<tr>
-								<th scope="row"><p class="lead">09:00 - 09:50</p></th>
-								<td class="tc-text"><p class="lead">高中組口頭報告比賽</p></td>
-							</tr>
-							<tr>
-								<th scope="row"><p class="lead">09:50 - 10:00</p></th>
-								<td class="tc-text"><p class="lead">茶點 / 休息</p></td>
-							</tr>
-							<tr>
-								<th scope="row"><p class="lead">10:00 - 11:40</p></th>
-								<td class="tc-text"><p class="lead">大學組口頭報告比賽</p></td>
-							</tr>
-							<tr>
-								<th scope="row"><p class="lead">11:40 - 11:50</p></th>
-								<td class="tc-text"><p class="lead">茶點 / 休息</p></td>
-							</tr>
-							<tr>
-								<th scope="row"><p class="lead">11:50 - 12:20</p></th>
-								<td class="tc-text"><p class="lead">講者演講 地點:圖書館會議廳</p></td>
-							</tr>
-							<tr>
-								<th scope="row"><p class="lead">12:20 -</p></th>
-								<td class="tc-text"><p class="lead">頒獎 / 閉幕 / 發放餐盒</p></td>
+								<th scope="row"><p class="tc-text">12:20 -</p></th>
+								<td><p class="tc-text">頒獎 / 閉幕 / 發放餐盒</p></td>
 							</tr>
 						</tbody>
 					</table>
@@ -549,198 +615,223 @@
           </div>
         </section>
 
-        <section id="place" class="border-top border-warning">
+        <section id="place" class="border-top border-light">
           <div class="container">
-            <h2 class="tc-text mb-4 fw-500">交通資訊</h2>
-			<div class="divider divider-alt bg-warning my-5"></div>
-			<div class="row">
-				<div class="col-md-6 col-sm-6 mb-4">
-					<div class="feature-block feature-boxed feature-bordered">
-						<div class="feature-icon text-primary mb-4">
-							<div>
-								<i class="text-warning fi fi-rs-marker"></i>
-							</div>
+            <h4 class="h2 tc-text fw-500">交通資訊</h4>
+			<div class="divider divider-alt bg-light my-5"></div>
+			<h6 class="tc-text">地點</h6>
+			<hr class="light">
+			
+			<div class="row"><div class="col">
+				<p>成功大學圖書館</p>
+				<iframe
+				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.6399587586757!2d120.2181063060931!3d23.000263498812604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e76929d696c03%3A0x5b036fe9505b5462!2z5ZyL56uL5oiQ5Yqf5aSn5a245ZyW5pu46aSo!5e0!3m2!1szh-TW!2stw!4v1687333208850!5m2!1szh-TW!2stw"
+				width="inherit"
+				height="inherit"
+				style="border: 0"
+				allowfullscreen=""
+				loading="lazy"
+				referrerpolicy="no-referrer-when-downgrade"
+			  ></iframe>
+			</div></div>
+			<h6 class="tc-text mt-5">交通</h6>
+			<hr class="light"/>
+			<div class="container px-0">
+				<div class="row h-100 mt-4">
+					<div class="col-12 col-lg-6 mb-5 text-light">
+						<div class="block block-boxed border border-light">
+							<div class="feature-block feature-boxed p-0">
+								<div class="feature-icon text-light mb-4">
+									<div>
+										<i class="text-light fi fi-rs-marker"></i>
+									</div>
+								</div>
+							</div>							
+							<h4 class="tc-text">校區地圖</h4>						
+						<p class="tc-text">搜尋「圖書館」➜ 選取「B005 圖書館」<a href="https://nckumap.ncku.edu.tw/map.php" class="btn btn-outline-primary btn-xs" target="_blank">建築分布</a></p>
 						</div>
-						<h3 class="h4 mb-2 tc-text">校區地圖</h3>
-						<a href="https://nckumap.ncku.edu.tw/map.php" class="btn btn-warning btn-sm mb-2" target="_blank">建築分布</a>
-						<p class="h5 tc-text mb-2">搜尋「圖書館」選取「B005 圖書館」</p>
-						<iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.6399587586757!2d120.2181063060931!3d23.000263498812604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e76929d696c03%3A0x5b036fe9505b5462!2z5ZyL56uL5oiQ5Yqf5aSn5a245ZyW5pu46aSo!5e0!3m2!1szh-TW!2stw!4v1687333208850!5m2!1szh-TW!2stw"
-                    width="inherit"
-                    height="inherit"
-                    style="border: 0"
-                    allowfullscreen=""
-                    loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"
-                  ></iframe>
-					</div>
-				</div>
-				<div class="col-md-6 col-sm-6 mb-4">
-					<div class="feature-block feature-boxed feature-bordered">
-						<div class="feature-icon text-primary mb-4">
-							<div>
-								<i class="text-warning fi fi-rr-car"></i>
-							</div>
-						</div>
-						<h3 class="h4 mb-2 tc-text">自行開車</h3>
-						<a href="https://goo.gl/maps/bcLJzpSQJMt5jg779" 
-						class="btn btn-warning btn-sm mb-2"
-						target="_blank">南下</a>
-						<p class="h5 tc-text mb-2">國道1號南下大灣交流道<i class="ti-arrow-right"></i>成功大學成功校區</p>
-						<a href="https://goo.gl/maps/zgPgFx87ahS1oiFH8" 
-						class="btn btn-warning btn-sm mb-2" target="_blank">北上</a>
-						<p class="h5 tc-text">國道1號北上仁德交流道<i class="ti-arrow-right"></i>成功大學成功校區</p>
-					</div>
-				</div>
-				<div class="col-md-6 col-sm-6 mb-4">
-					<div class="feature-block feature-boxed feature-bordered">
-						<div class="feature-icon text-primary mb-4">
-							<div>
-								<i class="text-warning fi fi-rr-subway"></i>
-							</div>
-						</div>
-						<h3 class="h4 mb-2 tc-text">搭乘火車</h3>
-						<p class="h5 tc-text">台鐵台南站<i class="ti-arrow-right"></i>後站出口<i class="ti-arrow-right"></i>大學路<i class="ti-arrow-right"></i>成功大學成功校區</p>
-					</div>
-				</div>
-
-				<div class="col-md-6 col-sm-6 mb-4">
-					<div class="feature-block feature-boxed feature-bordered">
-						<div class="feature-icon text-primary mb-4">
-							<div>
-								<i class="text-warning fi fi-rr-train"></i>
-							</div>
-						</div>
-						<h3 class="h4 mb-2 tc-text">搭乘高鐵</h3>
-						<p class="h5 tc-text">高鐵台南站<i class="ti-arrow-right"></i>二樓轉乘通廊 / 一樓大廳1號出口<i class="ti-arrow-right"></i>台鐵沙崙站<i class="ti-arrow-right"></i>台鐵台南站<i class="ti-arrow-right"></i>後站出口<i class="ti-arrow-right"></i>大學路<i class="ti-arrow-right"></i>成功大學成功校區</p>
 						
 					</div>
+					<div class="col-12 col-lg-6 mb-5 text-light">
+						<div class="block block-boxed border border-light">
+							<div class="feature-block feature-boxed p-0">
+								<div class="feature-icon text-light mb-4">
+									<div>
+										<i class="text-light fi fi-rr-car"></i>
+									</div>
+								</div>
+							</div>
+							<h4 class="tc-text">自行開車</h4>
+						<p class="tc-text">國道1號南下大灣交流道 ➜ 成功大學成功校區
+							<a href="https://goo.gl/maps/bcLJzpSQJMt5jg779" 
+							class="btn btn-outline-primary btn-xs ml-2"
+							target="_blank">南下</a>						
+						</p>
+						<p class="tc-text">國道1號北上仁德交流道 ➜ 成功大學成功校區
+							<a href="https://goo.gl/maps/zgPgFx87ahS1oiFH8" 
+							class="btn btn-outline-primary btn-xs ml-2" target="_blank">北上</a>
+						</p>		
+						</div>
+					</div>	
+					<div class="col-12 col-lg-6 mb-5 text-light">
+						<div class="block block-boxed border border-light">
+							<div class="feature-block feature-boxed p-0">
+								<div class="feature-icon text-light mb-4">
+									<div>
+										<i class="text-light fi fi-rr-subway"></i>
+									</div>
+								</div>
+							</div>
+							<h4 class="tc-text">搭乘火車</h4>
+						<p class="tc-text">
+							台鐵台南站 ➜ 後站出口 ➜ 大學路 ➜ 成功大學成功校區
+						</p>
+						</div>			
+					</div>
+					<div class="col-12 col-lg-6 mb-5 text-light">
+						<div class="block block-boxed border border-light">
+							<div class="feature-block feature-boxed p-0">
+								<div class="feature-icon text-light mb-4">
+									<div>
+										<i class="text-light fi fi-rr-train"></i>
+									</div>
+								</div>
+							</div>
+							<h4 class="tc-text">搭乘高鐵</h4>
+						<p class="tc-text">
+							高鐵台南站 ➜ 二樓轉乘通廊 / 一樓大廳1號出口 ➜ 台鐵沙崙站 ➜ 台鐵台南站 ➜ 後站出口 ➜ 大學路 ➜ 成功大學成功校區
+						</p>
+						</div>			
+					</div>						
 				</div>
-			</div>
+			</div>			
           </div>
         </section>
 		
-		<section id="office" class="border-top border-warning">
+		<section id="office" class="border-top border-light">
 			<div class="container">
 			  <h2 class="tc-text mb-4 fw-500">主辦單位</h2>
-			  <div class="row">
-
-				<div class="col-md-6 col-sm-6 mb-4">
-					<div class="feature-block feature-boxed feature-bordered">
-						<h3 class="h4 mb-2 tc-text">指導單位</h3>
-						<p class="h5 tc-text">國家科學及技術委員會</p>
+			  <div class="row mt-4">
+				<div class="col-12 col-lg-6 mb-5 mb-lg-0">
+					<div class="feature-block">
+						
+						<h6 class="tc-text">指導單位</h6>
+						<hr class="light">
+						<p class="lead tc-text">國家科學及技術委員會</p>
 					</div>
 				</div>
-
-				<div class="col-md-6 col-sm-6 mb-4">
-					<div class="feature-block feature-boxed feature-bordered">
-						<h3 class="h4 mb-2 tc-text">主辦單位</h3>
-						<p class="h5 tc-text">中華民國地球科學學會</p>
+				<div class="col-12 col-lg-6">
+					<div class="feature-block">						
+						<h6 class="tc-text">主辦單位</h6>
+						<hr class="light">
+						<p class="tc-text">中華民國地球科學學會</p>
 					</div>
 				</div>
-
-				<div class="col-md-6 col-sm-6 mb-4">
-					<div class="feature-block feature-boxed feature-bordered">
-						<h3 class="h4 mb-2 tc-text">承辦單位</h3>
-						<p class="h5 tc-text">國立成功大學地球科學系</p>
+				
+			</div>
+			<div class="row mt-4">
+				<div class="col-12 col-lg-6 mb-5 mb-lg-0">
+					<div class="feature-block">
+						
+						<h6 class="tc-text">承辦單位</h6>
+						<hr class="light">
+						<p class="lead tc-text">國立成功大學地球科學系</p>
 					</div>
 				</div>
-
-				<div class="col-md-6 col-sm-6 mb-4">
-					<div class="feature-block feature-boxed feature-bordered">
-						<h3 class="h4 mb-2 tc-text">協辦單位</h3>
-						<p class="h5 tc-text">地球科學研究推動中心</p>
-						<p class="h5 tc-text">國立成功大學理學院</p>
-						<p class="h5 tc-text">國立成功大學理學院科學教育中心</p>
+				<div class="col-12 col-lg-6">
+					<div class="feature-block">						
+						<h6 class="tc-text">協辦單位</h6>
+						<hr class="light">
+						<p class="tc-text">地球科學研究推動中心</p>
+						<p class="tc-text">國立成功大學理學院</p>
+						<p class="tc-text">國立成功大學理學院科學教育中心</p>
 					</div>
 				</div>
 			</div>
 			</div>
 		  </section>
 
-        <section id="contact-us" class="border-top border-warning">
+        <section id="contact-us" class="border-top border-light">
           <div class="container">
             <div class="row mb-3">
               <div class="col-12 col-xl-9">
-                <h2 class="tc-text fw-500 mb-4">聯絡資訊</h2>
+                <h4 class="h2 tc-text fw-500">聯絡資訊</h4>
               </div>
             </div>
-            <div class="row mb-5">
-              <div class="col-md-6 col-sm-6 mb-4">
-                <div class="feature-block feature-boxed feature-bordered h-100">
-                  <div class="feature-icon text-primary mb-4">
-                    <div>
-                      <i class="text-warning fi fi-rr-clock-five"></i>
-                    </div>
-                  </div>
-                  <h3 class="h4 tc-text mb-2">聯繫時間</h3>
-                  <p class="tc-text">週一至週五 9:00 - 17:00<br/></p>
-                </div>
-              </div>
-
-              <div class="col-md-6 col-sm-6 mb-4">
-                <div class="feature-block feature-boxed feature-bordered">
-                  <div class="feature-icon text-primary mb-4">
-                    <div>
-                      <i class="text-warning fi fi-rs-marker"></i>
-                    </div>
-                  </div>
-                  <h3 class="h4 tc-text mb-2">地址</h3>
-                  <p class="tc-text">704台南市東區大學路1號<br/>地球科學系</p>
-                </div>
-              </div>
-
-              <div class="col-md-6 col-sm-6 mb-4">
-                <div class="feature-block feature-boxed feature-bordered">
-                  <div class="feature-icon text-primary mb-4">
-                    <div>
-                      <i class="text-warning fi fi-rr-mobile-notch"></i>
-                    </div>
-                  </div>
-                  <h3 class="h4 tc-text mb-2">電話</h3>
-                  <p class="tc-text">
-                    (06)2757-575#65430#230<br />
-                    (06)275-5312
-                  </p>
-                </div>
-              </div>
-
-              <div class="col-md-6 col-sm-6 mb-4">
-                <div class="feature-block feature-boxed feature-bordered">
-                  <div class="feature-icon text-primary mb-4">
-                    <div>
-                      <i class="text-warning fi fi-rs-envelope"></i>
-                    </div>
-                  </div>
-                  <h3 class="h4 tc-text mb-2">信箱</h3>
-                  <p class="tc-text">
-                    朱小姐 : 10606025@gs.ncku.edu.tw
-                  </p>
-                </div>
-              </div>
-            </div>         			
+			<div class="container px-0">
+				<div class="row h-100 mt-4">
+					<div class="col-12 col-lg-6 mb-5 text-light">
+						<div class="block block-boxed border border-light">
+							<div class="feature-block feature-boxed p-0">
+								<div class="feature-icon text-light mb-4">
+									<div>
+										<i class="text-light fi fi-rr-clock-five"></i>
+									</div>
+								</div>
+							</div>							
+							<h4 class="tc-text">聯繫時間</h4>						
+						<p class="tc-text">週一至週五 9:00 - 17:00</p>
+						</div>
+						
+					</div>
+					<div class="col-12 col-lg-6 mb-5 text-light">
+						<div class="block block-boxed border border-light">
+							<div class="feature-block feature-boxed p-0">
+								<div class="feature-icon text-light mb-4">
+									<div>
+										<i class="text-light fi fi-rs-marker"></i>
+									</div>
+								</div>
+							</div>
+							<h4 class="tc-text">地址</h4>
+						<p class="tc-text">704台南市東區大學路1號<br/>地球科學系					
+						</p>
+						
+						</div>
+					</div>	
+					<div class="col-12 col-lg-6 mb-5 text-light">
+						<div class="block block-boxed border border-light">
+							<div class="feature-block feature-boxed p-0">
+								<div class="feature-icon text-light mb-4">
+									<div>
+										<i class="text-light fi-rr-mobile-notch"></i>
+									</div>
+								</div>
+							</div>
+							<h4 class="tc-text">電話</h4>
+						<p class="tc-text">
+							(06)2757-575#65430#230<br />
+							(06)275-5312
+						</p>
+						</div>			
+					</div>
+					<div class="col-12 col-lg-6 mb-5 text-light">
+						<div class="block block-boxed border border-light">
+							<div class="feature-block feature-boxed p-0">
+								<div class="feature-icon text-light mb-4">
+									<div>
+										<i class="text-light fi fi-rs-envelope"></i>
+									</div>
+								</div>
+							</div>
+							<h4 class="tc-text">信箱</h4>
+						<p class="tc-text">
+							朱小姐 : 10606025@gs.ncku.edu.tw
+						</p>
+						</div>			
+					</div>						
+				</div>
+			</div>	
+                 			
           </div>
         </section>
       </div>
 
+	  
+
       <!-- Site footer -->
-      <footer class="site-footer">
-		<!-- <div class="container copyright-container"> -->
-			<!-- <ul class="d-none d-md-flex justify-content-around align-items-center h-100">
-				<li>
-					<img class="img-fluid img-thumbnail background-opacity" src="demo/images/0125-國科會標誌組合.png" alt="">
-				</li>
-				<li>
-					<img class="img-fluid img-thumbnail background-opacity" src="demo/images/01_1.png" alt="">
-				</li>
-				<li>
-					<img class="img-fluid img-thumbnail background-opacity" src="demo/images/ncku.png" alt="">
-				</li>
-				<li>
-					<img class="img-fluid img-thumbnail background-opacity" src="demo/images/下載-removebg-preview.png" alt="">
-				</li>
-			</ul> -->
-		<!-- </div> -->
+      <footer class="site-footer bg-primary">
+		
 	  </footer>
     </div>
 
