@@ -958,12 +958,10 @@ blockquote:last-child {
     bottom: 0px;
     left: 0px;
     right: 0px;
-	height: 100px;
+	  height: 100px;
     max-width: none;
     width: auto;
-    color: #030507;
     text-align: right;
-	background: rgba(256, 256, 256, 0.5);
     -webkit-backface-visibility: hidden;
     -moz-backface-visibility: hidden;
     backface-visibility: hidden;

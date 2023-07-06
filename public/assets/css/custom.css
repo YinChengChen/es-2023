@@ -85,6 +85,20 @@
     transition: left 0.5s cubic-bezier(0.54, 0.18, 0.36, 0.81);
 }
 
+img.logo-style {
+  /* width: 30%; */
+  max-width: 100px;
+  /* max-width: 30%; */
+  height: auto;
+}
+img.big-logo-style {
+  max-width: 300px;
+  height: auto;
+}
+.bg-transport-test {
+  background-color: rgba(197, 195, 195, 0.527);
+  border-radius: 10px;
+}
 /* .site-footer .socials-container{
     background: #ffffff50;
 } */
