@@ -1,10 +1,10 @@
 # Change Log
 07/06/2023 version 2.3.0 : \
-Finish and online
+Finish and online \
 07/05/2023 version 2.2.0 : \
-Finish websign design
+Finish websign design \
 06/29/2023 version 2.1.0 : \
-Add uicons
+Add uicons \
 06/29/2023 version 2.0.0 : \
 Add functions on university region. \
 Change colors of topic.
