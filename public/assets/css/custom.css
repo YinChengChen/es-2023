@@ -87,8 +87,16 @@
 
 img.logo-style {
   /* width: 30%; */
-  max-width: 100px;
+  max-width: 150px;
   /* max-width: 30%; */
+  height: auto;
+}
+img.short-logo-style {
+  max-width: 120px;
+  height: auto;
+}
+img.long-logo-style {
+  max-width: 250px;
   height: auto;
 }
 img.big-logo-style {
@@ -99,6 +107,28 @@ img.big-logo-style {
   background-color: rgba(197, 195, 195, 0.527);
   border-radius: 10px;
 }
-/* .site-footer .socials-container{
-    background: #ffffff50;
-} */
+.site-footer img {
+  filter: 
+  drop-shadow(1px 1px 0.25px #fff)
+  drop-shadow(-1px -1px 0.25px #fff)
+  drop-shadow(1px -1px 0.25px #fff)
+  drop-shadow(-1px 1px 0.25px #fff) 
+  drop-shadow(1px 0px 0.25px #fff)
+  drop-shadow(-1px 0px 0.25px #fff)
+  drop-shadow(0px 1px 0.25px #fff)
+  drop-shadow(0px -1px 0.25px #fff);
+  -webkit-filter: 
+  drop-shadow(1px 1px 0.25px #fff)
+  drop-shadow(-1px -1px 0.25px #fff)
+  drop-shadow(1px -1px 0.25px #fff)
+  drop-shadow(-1px 1px 0.25px #fff) 
+  drop-shadow(1px 0px 0.25px #fff)
+  drop-shadow(-1px 0px 0.25px #fff)
+  drop-shadow(0px 1px 0.25px #fff)
+  drop-shadow(0px -1px 0.25px #fff);
+  padding: 5px;
+}
+.site-footer ul {
+  padding-top: 0;
+  padding-bottom: 30px;
+}

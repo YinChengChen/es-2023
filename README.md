@@ -1,4 +1,6 @@
 # Change Log
+07/07/2023 version 2.4.0 : \
+Fixed logo position \
 07/06/2023 version 2.3.0 : \
 Finish and online \
 07/05/2023 version 2.2.0 : \
