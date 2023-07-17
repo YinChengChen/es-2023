@@ -845,6 +845,12 @@ blockquote:last-child {
     height: 300px;
   }
 
+  @media (max-height: 700px) {
+    .site-footer .logo-container {
+      height: 200px;
+    }
+  }
+
   .site-footer:before {
     display: none;
   }
@@ -969,7 +975,7 @@ blockquote:last-child {
     bottom: 0px;
     left: 0px;
     right: 0px;
-	  height: 100px;
+	  height: 70px;
     max-width: none;
     width: auto;
     text-align: right;
@@ -2894,8 +2900,8 @@ hr.dark {
   }
 
   #side-block {
-    left: 50%;
-    width: 50%;
+    left: 40%;
+    width: 60%;
     min-height: 100vh;
     padding-top: 100px;
     transition: left 0.5s cubic-bezier(0.54, 0.18, 0.36, 0.81);
@@ -2916,7 +2922,7 @@ hr.dark {
  
 
   body.side-block-open #side-block.hide-side-block {
-    left: 50%;
+    left: 40%;
   }
 
   #side-block .container,
