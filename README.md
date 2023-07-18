@@ -1,4 +1,6 @@
 # Change Log
+07/18/2023 version 2.5.5 : \
+Fixed the responsive function \
 07/17/2023 version 2.5.0 : \
 Add Q and A section \
 07/07/2023 version 2.4.0 : \
