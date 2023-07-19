@@ -1,4 +1,6 @@
 # Change Log
+07/19/2023 version 2.6.0 : \
+Add rewards \
 07/18/2023 version 2.5.5 : \
 Fixed the responsive function \
 07/17/2023 version 2.5.0 : \
