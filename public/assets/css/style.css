@@ -1383,14 +1383,14 @@ select.form-control-lg:not([size]):not([multiple]),
 
 .btn-secondary {
   color: #fff;
-  background-color: #6c757d;
-  border-color: #6c757d;
+  background-color: #1061A3;
+  border-color: #1061A3;
 }
 
 .btn-secondary:hover {
   color: #fff;
-  background-color: #5a6268;
-  border-color: #545b62;
+  background-color: #1e6dad;
+  border-color: #1e6dad;
 }
 
 .btn-secondary:focus,
@@ -1402,8 +1402,8 @@ select.form-control-lg:not([size]):not([multiple]),
 .btn-secondary.disabled,
 .btn-secondary:disabled {
   color: #fff;
-  background-color: #6c757d;
-  border-color: #6c757d;
+  background-color: #1061A3;
+  border-color: #1061A3;
 }
 
 .btn-secondary:not(:disabled):not(.disabled):active,

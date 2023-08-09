@@ -155,3 +155,16 @@ img.big-logo-style {
 .bg-success {
   background-color: #1061A3;
 }
+@media (min-width: 1200px) {
+  .text-start {
+    text-align: start;
+  }
+  .text-end {
+    text-align: end;
+  }
+}
+@media (max-width: 1199px) {
+  .text-end{
+    text-align: center;
+  }
+}
