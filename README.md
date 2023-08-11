@@ -1,4 +1,6 @@
 # Change Log
+08/11/2023 version 2.7.2 : \
+Update QA \
 08/09/2023 version 2.7.0 : \
 Add Notices on Home Page \
 07/19/2023 version 2.6.0 : \
