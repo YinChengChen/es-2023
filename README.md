@@ -1,4 +1,6 @@
 # Change Log
+09/05/2023 version 3.0.0 : \
+Change schedule \ 
 08/11/2023 version 2.7.2 : \
 Update QA \
 08/09/2023 version 2.7.0 : \

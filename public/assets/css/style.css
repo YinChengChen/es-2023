@@ -1364,8 +1364,8 @@ select.form-control-lg:not([size]):not([multiple]),
 
 .btn-primary.disabled,
 .btn-primary:disabled {
-  background-color: #5082ff;
-  border-color: #5082ff;
+  background-color: #ffffff9d;
+  border-color: #ffffff9d;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active,
@@ -1549,7 +1549,7 @@ select.form-control-lg:not([size]):not([multiple]),
 
 .btn-outline-primary.disabled,
 .btn-outline-primary:disabled {
-  color: #5082ff;
+  color: #f6f8fd9c;
   background-color: transparent;
 }
 
@@ -2900,8 +2900,8 @@ hr.dark {
   }
 
   #side-block {
-    left: 40%;
-    width: 60%;
+    left: 35%;
+    width: 65%;
     min-height: 100vh;
     padding-top: 100px;
     transition: left 0.5s cubic-bezier(0.54, 0.18, 0.36, 0.81);
@@ -2922,7 +2922,7 @@ hr.dark {
  
 
   body.side-block-open #side-block.hide-side-block {
-    left: 40%;
+    left: 35%;
   }
 
   #side-block .container,
